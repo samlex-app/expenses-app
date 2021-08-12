@@ -1,5 +1,6 @@
 .chart-bar {
     height: 100%;
+    width: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,5 +27,11 @@
   .chart-bar__label {
     font-weight: bold;
     font-size: 0.5rem;
+    text-align: center;
+  }
+
+  .chart-bar__sum {
+    font-size: 0.4rem;
+    font-weight: 400;
     text-align: center;
   }
